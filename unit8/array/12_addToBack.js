@@ -1,5 +1,5 @@
-function getAllElementsButLast(arr) {
+function addToBack(arr, el) {
   // TODO: 여기에 코드를 작성합니다.
-  arr.pop()
+  arr.push(el);
   return arr;
 }
