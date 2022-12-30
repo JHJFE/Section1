@@ -5,5 +5,7 @@ function getAllLetters(str) {
   for(let i = 0;i<str.length;i++){
     result[i] = str[i];
   }
+  
   return result;
+
 }
