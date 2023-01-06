@@ -42,7 +42,15 @@
 - ![](https://velog.velcdn.com/images/ghwo9611/post/07bf06e6-9f98-4b21-bbff-626a3b37c349/image.png) 해당 방법은 tweet 클래스에 해당하는 요소들 중 tweet 클래스인 요소를 제거하는 동작으로 결과적으로 container의 모든 요소 삭제
 - ![](https://velog.velcdn.com/images/ghwo9611/post/c55b1a3a-d579-4a62-8a9f-f243189b702f/image.png)해당 방법 혹은 for문을 사용해 다양한 방법으로 원하는 요소들을 제거 가능
 
+### 이벤트 객체
+: Dom과 관련한 이벤트(onclick, onscroll, onkeyup등) 발생시 이벤트 발생한 요소, 이벤트 타입등 관련한 정보가 담기는 객체
+![](https://velog.velcdn.com/images/ghwo9611/post/27bf95e8-0254-4376-82b7-1c8817bcb9f2/image.png)
+- 이벤트 안에는 target, type, view, eventPhase등 많은 매소드를 가지고 있으며 다양한 활용이 가능
 
----- 추가로 관련 실습을 진행하고 실습 내용과 관련 후기를 남길 예정 ----
+- 이벤트 매소드 사용 예시
+![](https://velog.velcdn.com/images/ghwo9611/post/0e9644d9-69b7-4e41-ae86-6d8b9825cfad/image.png).event를 통해 이벤트 정보를 받아오고, target매소드를 사용해 이벤트의 요소를 파악한 후, 요소의 문자열 정보를 가져와 담음
+
 # 후기
-- 
+- 이번 유닛을 통해 Dom을 활용한 HTML 수정과 이벤트 객체의 활용을 배움
+- 다른 언어에서도 이벤트에 대한 처리가 존재하지만 HTML을 변경하는데 활용 된다는 점에서 이벤트 처리에 대한 중요도가 더 높다고 생각
+- 전 css 디자인에서 사용하지 않은 animation 기능도 활용해 보았으며 더 다양한 css를 적용 수정해 보며 익힐 것(과제 참고)
